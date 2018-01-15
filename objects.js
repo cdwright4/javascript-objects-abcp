@@ -1,1 +1,1 @@
-new object
+var playlist = {artist:songtitles}
