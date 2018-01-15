@@ -3,7 +3,7 @@ console.log(playlist)
 
 function updatePlaylist (playlist, artist, songtitle) {
   
-  playlist.assign(playlist,{artist: songtitle});
+  Object.assign(playlist,{artist: songtitle});
   return playlist;
   
 }
