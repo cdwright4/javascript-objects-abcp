@@ -3,11 +3,13 @@ var playlist = { artist: 'songtitles'};
 
 function updatePlaylist (playlist, artist, songtitle) {
   
-  var pandoralist = {};
-  pandoralist = Object.assign(playlist,{[artist]: songtitle});
-	return pandoralist;
+  
+  return pandoralist = Object.assign(playlist,{[artist]: songtitle});
+	
   
     
 }
 
-function
+function removeFromPlaylist (){
+  
+}
